@@ -1,9 +1,15 @@
+{{ next_data('twikoo', config.twikoo, {
+  el: '#twikoo-comments'
+}) }}
 <script>
-NexT.utils.loadComments('#twikoo-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js', () => {
-    twikoo.init(Object.assign({{ config.twikoo | safedump }}, {
-      el: '#twikoo-comments'
-    }));
-  }, window.twikoo);
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.twikoo.el)
+    .then(() => NexT.utils.getScript(
+      'https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js',
+      { condition: window.twikoo }
+    ))
+    .then(() => {
+      twikoo.init(CONFIG.twikoo);
+    });
 });
 </script>
