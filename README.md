@@ -1,6 +1,6 @@
 # Hexo NexT Twikoo
 
-![Theme Version](https://img.shields.io/badge/NexT-v7.3.0+-blue?style=flat-square)
+![Theme Version](https://img.shields.io/badge/NexT-v8.4.0+-blue?style=flat-square)
 ![Package Version](https://img.shields.io/github/package-json/v/imaegoo/hexo-next-twikoo?style=flat-square)
 
 Twikoo comment system for NexT. Twikoo is a simple, safe, free comment system.
@@ -8,7 +8,10 @@ Twikoo comment system for NexT. Twikoo is a simple, safe, free comment system.
 ## Install
 
 ```bash
-npm install hexo-next-twikoo
+# For NexT version >= 8.0.0 && < 8.4.0
+npm install hexo-next-twikoo@1.0.0
+# For NexT version >= 8.4.0
+npm install hexo-next-twikoo@1.0.1
 ```
 
 ## Register
