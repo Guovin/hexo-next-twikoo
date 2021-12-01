@@ -11,7 +11,7 @@ Twikoo comment system for NexT. Twikoo is a simple, safe, free comment system.
 # For NexT version >= 8.0.0 && < 8.4.0
 npm install hexo-next-twikoo@1.0.0
 # For NexT version >= 8.4.0
-npm install hexo-next-twikoo@1.0.2
+npm install hexo-next-twikoo@1.0.3
 ```
 
 ## Register
