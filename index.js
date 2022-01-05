@@ -29,7 +29,7 @@ hexo.extend.filter.register('theme_inject', injects => {
         <i class="far fa-eye"></i>
       </span>
       <span class="post-meta-item-text">{{ __('post.views') + __('symbol.colon') }}</span>
-      <span id="twikoo_visitors"></span>
+      <span class="twikoo_visitors_counter"></span>
     </span>
   `, {}, {});
   }

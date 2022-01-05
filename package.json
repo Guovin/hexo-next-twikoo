@@ -1,12 +1,12 @@
 {
-  "name": "hexo-next-twikoo",
-  "version": "1.0.3",
+  "name": "govin-hexo-next-twikoo",
+  "version": "1.0.5",
   "description": "Twikoo comment system for NexT.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/imaegoo/hexo-next-twikoo",
+  "repository": "https://github.com/Guovin/hexo-next-twikoo",
   "keywords": [
     "Hexo",
     "NexT",
@@ -15,9 +15,9 @@
   "author": "imaegoo <hello@imaegoo.com> (https://github.com/imaegoo)",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/imaegoo/hexo-next-twikoo/issues"
+    "url": "https://github.com/Guovin/hexo-next-twikoo/issues"
   },
-  "homepage": "https://github.com/imaegoo/hexo-next-twikoo#readme",
+  "homepage": "https://github.com/Guovin/hexo-next-twikoo#readme",
   "dependencies": {
     "@next-theme/utils": "^1.1.0"
   }
