@@ -1,5 +1,5 @@
 {
-  "name": "govin-hexo-next-twikoo",
+  "name": "hexo-next-twikoo-govin",
   "version": "1.1.0",
   "description": "Twikoo comment system for NexT.",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "NexT",
     "twikoo"
   ],
-  "author": "imaegoo <hello@imaegoo.com> (https://github.com/imaegoo)",
+  "author": "Govin <360996299@qq.com> (https://github.com/guovin)",
   "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/Guovin/hexo-next-twikoo/issues"
